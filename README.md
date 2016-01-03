@@ -18,6 +18,28 @@ Or install it yourself as:
 
     $ gem install metrilo
 
+## Configuration
+
+Gem configuration is done as follows:
+
+```ruby
+Metrilo.configuration do |config|
+  config.api_token    = 'YOUR API TOKEN HERE'
+  config.api_secret   = 'YOUR API SECRET HERE'
+end
+```
+
+API Token and API Secret are mandatory for initialization process of the gem.
+Other supported options withing the configuration block are:
+
+```ruby
+# ...
+config.tracking_url = 'custom_track.merilo.com' # With default options p.metrilo.com
+config.js_lib_url   = 'custom_js.metrilo.com' # With default options t.metrilo.com
+config.debug_mode   = true # With default options false
+# ...
+```
+
 ## Usage
 
 TODO: Write usage instructions here
