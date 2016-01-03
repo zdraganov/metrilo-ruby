@@ -34,9 +34,9 @@ Other supported options withing the configuration block are:
 
 ```ruby
 # ...
-config.tracking_url = 'custom_track.merilo.com' # With default options p.metrilo.com
-config.js_lib_url   = 'custom_js.metrilo.com' # With default options t.metrilo.com
-config.debug_mode   = true # With default options false
+config.tracking_url = 'custom_track.merilo.com' # With default value p.metrilo.com
+config.js_lib_url   = 'custom_js.metrilo.com' # With default value t.metrilo.com
+config.debug_mode   = true # With default value false
 # ...
 ```
 
